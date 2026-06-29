@@ -19,6 +19,7 @@ Install Dependencies: If prompted, allow VS Code to install `ipykernel` or other
 ```bash
 pip install -r requirements.txt
 ```
+    *Note: For operations involving Excel files, ensure `openpyxl` is installed, which is included in `requirements.txt`.*
 5.  **Run Cells:** Click the "play" icon next to any cell to run it.
 
 ### Option 2: Local Jupyter Server
@@ -41,8 +42,9 @@ This is the classic, browser-based Jupyter experience.
     ```bash
     pip install -r requirements.txt
     ```
+    *Note: For operations involving Excel files, ensure `openpyxl` is installed, which is included in `requirements.txt`.*
 
-3.  **Start the Jupyter Server:** In the same terminal, run:
+    3.  **Start the Jupyter Server:** In the same terminal, run:
     ```bash
     jupyter notebook
     ```
